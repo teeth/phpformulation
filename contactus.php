@@ -15,7 +15,7 @@ if (isset($_POST["email"]) && isset($_POST["submit"]) ) {
 	}
 	
 	if (((strpos($message, "http://") === false && !$isURLAllowed) || $isURLAllowed) && $_POST["email"] != "") {
-		$isSent = @mail("lateefnation@gmail.com", $_POST["subject"], $message, $headers);
+		$isSent = @mail("email@email.com", $_POST["subject"], $message, $headers);
 
 		if(!$isSent) {
 		$hasError = true;
