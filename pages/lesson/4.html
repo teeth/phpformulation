@@ -1,0 +1,39 @@
+<html><head></head>
+<body>
+
+<h2>Lesson 4 - Post the Fields</h2>
+
+<div id="cont">
+
+This part of the PHP script is quite simple. What you’re doing is iterating over the array variable<br>
+<strong>$fields</strong> and storing the data into the variable <strong>$message</strong>. This will be how your fields of data are<br>
+posted.<br>
+
+<p>The <strong>foreach</strong> loop below is looping over each of the array of fields. These fields are the data the user<br>
+has entered in each of the input fields of the contact us page. It stores the fields in the variable<br>
+<strong>$field</strong>.<br><p>
+
+<img src="images/foreach.png"/><br>
+
+<p>The variable <strong>$message</strong> will hold the stored array of <strong>$field</strong>; this variable will be used in the later part<br>
+of the script. <strong>ucwords</strong> will capitalise the first character of each word, i.e. name becomes Name. The<br>
+variable $_POST collects values in the web form. The web form uses the <strong>method="POST"</strong> attribute<br>
+(take a look at the contact us page code for the method). So this will be used as a post method for<br>
+the submission of the form.<br></p>
+
+<img src="images/message.png"/><br>
+
+<p>Before going to the next section of the script, make sure your current PHP script looks like this:<br></p>
+
+<img src="images/section3.png"/><br><br>
+</div>
+
+</div>
+
+	<div id="nav">
+		<div id="pre"><a href='index.php?lesson=3'>Previous</a></div>
+		<div id="next"><a href='index.php?lesson=5'>Next Lesson</a></div>
+	</div>
+
+</body>
+</html>

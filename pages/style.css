@@ -1,0 +1,54 @@
+body { background-color:#87AEC5; background-image:url(images/bg_tile.gif);	background-repeat: repeat-x; }
+
+img { border:3px double #0099FF; }
+
+	.faq { border:0px; float:right; margin:8px; }
+
+h1 { color:#006600; margin:auto; text-align:center; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:40px; }
+h2 { color:#000099; margin:auto; text-align:center; }
+h3 { color:#0066CC; margin:3px; text-align:left; }
+
+table { border:#000099 solid 1px; width:750px; margin:auto; }
+th { border:#000099 solid 1px; }
+td { border:#000099 solid 1px; }
+
+#cont { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; }
+
+#main { width:1000px; height:700px; margin:auto; }
+
+#banner { width:1000px; height:120px; margin:auto; }
+
+#title { background-image:url(images/mainbanner.png); background-repeat:no-repeat; width:1000px; height:120px; float:left; }
+#menu { width:1000px; height:26px; float:left; }
+	#menu_item { width:130px; height:20px; float:right; margin-top:6px; margin-bottom:0px; margin-left:3px; margin-right:3px; font-size:18px; text-align:center; background-color:#333333; }
+		#menu_item a { text-decoration:none; color:#FFFFFF; width:130px; display:block; }		#menu_item a:hover { background-color:#003300; }
+		.blank { width:130px; height:35px; float:left; margin-top:20px; margin-left:10px; margin-right:10px; font-size:30px; text-align:center; }
+
+#filler { background-color:#87AEC5; width:1000px; height:10px; float:left; }
+
+#content { width:1000px; height:600px; float:left; }
+	#left { width:200px; height:600px; float:left; }
+	#right { background-color:#87AEC5; width:800px; height:600px; float:left; }
+		
+
+#footer { background-color:#87AEC5; width:1000px; height:20px; float:left; }
+
+
+/*left*/
+#left h2 { width:200px; height:25px; display:block; float:left; text-decoration:none; text-align:center; color:#99CC00; font-size:20px; background-color:#003399; margin-bottom:10px; }
+#left a { width:200px; height:25px; display:block; float:left; text-decoration:none; text-align:center; color:#99CC00; font-size:20px; background-color:#0066CC; margin-bottom:10px; }
+#left a:hover { background-color:#003399; }
+/*-------------------*/
+
+/*right*/
+#code { width:790px; height:auto; float:left; border:1px solid #0000CC; margin:4px; }
+#output { width:786px; height:auto; float:left; margin-left:4px; }
+#nav { background-color:#87AEC5; width:790px; height:40px; float:left; text-align:center; }
+/*-------------------*/
+
+/*nav*/
+#pre a { background-color:#0066CC; width:150px; height:26px; float:left; color:#99CC00; text-decoration:none; font-size:22px; margin-top:14px; }
+#next a { background-color:#0066CC; width:150px; height:26px; float:right; color:#99CC00; text-decoration:none; font-size:22px; margin-top:14px; }
+#pre a:hover { text-decoration:underline; }
+#next a:hover { text-decoration:underline; }
+/*-------------------*/

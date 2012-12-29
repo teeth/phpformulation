@@ -1,0 +1,71 @@
+<html><head></head>
+<body>
+
+<h2>Lesson 6 - Formulate PHP File</h2>
+
+<div id="cont">
+
+In this final part of the tutorial we are going to add some additional functionality to the contact us<br>
+page, turn the current HTML file into a PHP file and we will explain some technicalities that will be<br>
+important for those new to PHP, when it comes to running the PHP file.<br>
+
+<p>We are now going to add some additional code in the contact us page. When the web form is sent<br>
+successfully, this is signified by the <strong>$isSent</strong> variable being true, which returns a thank you message<br>
+on a new page. In the Variables & Fields tutorial we had the <strong>$hasError</strong> variable which was set to<br>
+false and when it’s true it outputs an error message on top of the web form page. The error message<br>
+it outputs is “<i>Mail cannot be sent. Please try again later</i>”. So two short PHP script will be added into<br>
+the HTML code of the contact us page. So add the additional code below to your current code.<br></p>
+
+<img src="images/scripts.png"/><br>
+
+<p>Now we are going to add a value attribute in each of the input text. These value attribute will<br>
+contain <strong>$_POST</strong> variables. We are using this functionality to simple repopulate the entered inputs to<br>
+prevent the user from having to enter their inputs again if any errors occur. Enter this attribute in<br>
+and along with the star sign. The star sign is simply to show that the email input field is mandatory.<br>
+Click on the picture to enlarge it.<br></p>
+
+<a href="images/post_large.png" target="_blank"><img src="images/post_small.png"></a><br>
+
+<p>Also don’t forget to add PHP tags near the end of your code. Click on the picture to enlarge it<br></p>
+
+<a href="images/end_large.png" target="_blank"><img src="images/end_small.png"></a><br>
+
+<p>We have finished writing the code to the PHP scripted web form. The final thing to do now is to<br>
+make the file, which is currently a HTML file, a PHP file. This is simple to do. Just <i>Save As</i> with a<br>
+“<i>.php</i>” extension to the end of the filename. If you’re using Notepad, make sure the Save as type is<br>
+set to <i>All Files</i>. You may be using another text editor, which can simply save the file as a PHP file<br>
+using the <i>Save as type</i> drop down list. So in that case a “<i>.php</i>” extension doesn’t need to be added.<br></p>
+
+<p>Now the file is a PHP file, refresh your browser and you’ll likely get a page not found error. That’s<br>
+because you can’t simply open a PHP file using a web browser. You have to upload it to a server. The<br>
+server can be a web host (make sure your web host supports PHP) or you can run your computer as<br>
+a server. In the example of the web form being sent (on the next page), I have uploaded the web<br></p>
+form to a web host.
+
+In regards to running your computer as server, there are two suggestions I will make:<br>
+
+<ul>
+<li>You can install the latest version of PHP onto your computer, from the <a href="http://www.php.net/" target="_blank">PHP website</a>. Then<br>
+you have to configure it to run with Apache. The latest version of Apache can be<br>
+downloaded on their <a href="http://www.apache.org/" target="_blank">website</a>.</li>
+
+<li>Another option is to install XAMPP onto your computer. This can be downloaded from their<br>
+<a href="http://www.apachefriends.org/en/xampp.html" target="_blank">website</a>, via Sourceforge.</li>
+</ul>
+
+Out of the two options, the latter is the one I would advise users to choose. Reason being is that<br>
+XAMPP installs Apache and PHP for you, along with other programs that may be useful to you.<br>
+Additional information, if you’re running your computer as a server you have to make sure you have<br>
+your PHP.ini file configured. Check the PHP website for more information.<br>
+<br>
+</div>
+
+</div>
+
+	<div id="nav">
+		<div id="pre"><a href='index.php?lesson=5'>Previous</a></div>
+		<div id="next"><a href='index.php?lesson=7'>Next Lesson</a></div>
+	</div>
+
+</body>
+</html>

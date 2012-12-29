@@ -1,0 +1,53 @@
+<html><head></head>
+<body>
+
+<h2>Lesson 3 - Headers</h2>
+
+<div id="cont">
+In this section of the script we’ll be working with the <strong>$header</strong> variable.<br>
+“<italic>When your browser requests a web page from a server via HTTP, it sends a set of headers<br>
+with various bits of information about itself.</italic>” This quote applies when you receive an email<br>
+in your inbox from the web form.<br>
+
+<p>We will use an if-statement to check that the user has entered an email address in the<br>
+<strong>email</strong> field and the submit button has been pressed. If we don’t check that the<br>
+submit has been checked, you will constantly get emails full of blank fields, every time someone<br>
+goes on the page.<br></p>
+
+<img src="images/ifstatement1.png"/><br>
+
+<p>The header variable below uses a <strong>MIME-Version</strong> declaration. This is used to<br>
+declare the version of the Internet message body format standard that is being used. The version<br>
+that is usually used is "1.0". The <strong>\r\n</strong> means a new line.<br></p>
+
+<img src="images/header1.png"/><br>
+
+<p>The next header variable helps identify the type of information that a file contains. It tells us the<br>
+type of content that will be sent to the email. This is a <strong>text/html</strong> format. If we<br>
+didn’t specify the <strong>Content-type</strong>, when the email is sent, the variables called to<br>
+display in the email will be displayed in plain text, showing all the html tags. So the <strong>Content-<br>
+type</strong> is used to render content sent to our inbox in HTML.<br></p>
+
+<img src="images/header2.png"/><br>
+
+<p>The last header field retrieves the email address of the user that sent the form. The<br>
+<strong>email</strong> field is referenced here because that’s the input field where the user enters<br>
+their email address. So the email address entered is who it’s <strong>From</strong>.<br></p>
+
+<img src="images/header3.png"/><br>
+
+<p>Before continuing to the next section of the PHP script, make sure the lines of code have been<br>
+written and looks like this:<br></p>
+
+<img src="images/section2.png"/><br><br>
+</div>
+
+</div>
+
+	<div id="nav">
+		<div id="pre"><a href='index.php?lesson=2'>Previous</a></div>
+		<div id="next"><a href='index.php?lesson=4'>Next Lesson</a></div>
+	</div>
+
+</body>
+</html>

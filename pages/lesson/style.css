@@ -1,0 +1,121 @@
+BODY  {
+	background : white;
+	color: Black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	margin-left: 15px;
+	margin-top: 5px;
+	margin-right: 30%;
+	}
+
+P  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	}
+
+H1  {
+	background : #ffffff;
+	color : #000000;
+	font-family : Verdana, Arial, Helvetica, sans-serif;	
+	font-size : 18px;
+	margin-top: 2px;
+	font-weight: bold;
+}
+	
+
+H2  {
+
+	background : #ffffff;
+	color : black;
+	font-family : Verdana, Arial, Helvetica, sans-serif;	
+	font-size : 16px;
+	font-weight: bold;
+}
+
+H3  {
+
+	background : #ffffff;
+	color : black;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	margin-left: 5px;	
+	font-size : 14px;
+	font-weight: bold;
+}
+
+li  {
+	background : white;
+	color: Black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+
+
+A:link  {
+	color : #990033;
+	text-decoration : underline;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+
+A:visited  {
+	color : #333333;
+	text-decoration : underline;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+
+A:active  {
+	color : Black;
+	text-decoration : underline;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+
+A:hover  {
+	color : #663399;
+	text-decoration : underline;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+}
+
+.title  {
+	background : #ffffff;
+	color : #000000;
+	font-family : "Times New Roman", Times, serif;	
+	font-size : 20px;
+	margin-top: 2px;
+	font-weight: bold;
+}
+
+code  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	color : blue;
+	background : white;
+}
+
+p.code  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	color : blue;
+	background : white;
+}
+
+div.whitespace {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+li.hidden {
+	list-style: none;
+}
+	
+li.space {
+	margin-bottom: 5px;
+}
+
+li.provisional {
+	color: Red;
+	background-color: Yellow;
+	margin-right: 50%;
+}

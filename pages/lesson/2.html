@@ -1,0 +1,60 @@
+<html><head></head>
+<body>
+
+<h2>Lesson  2 - Variables & Fields</h2>
+
+<div id="cont">
+
+<p>Once you have written down the code for the contact us page, from the previous page, we can now<br>
+begin the PHP scripting. This will be done in the same contact us file, which will be written above the<br>
+Document Type Declaration. Type in an open and closed PHP tags like below.<br></p>
+
+<img src="images/starthere.png" /><br>
+
+<p>Now we will start with the first section of the PHP script. This is setting up our variables and<br>
+referencing the input field names of the contact us page. Read the description of the code<br>
+and type in the code following it. This will be the structure of the tutorial.<br></p>
+
+<p>The <strong>$isSent</strong> variable will be the indicator whether the content of the web<br>
+form has been sent. It is set to false to signify that no form has been sent with the email address.<br></p>
+
+<img src="images/issent.png" /><br>
+
+<p>The <strong>$hasError</strong> variable is used to print an error message if there are any errors in<br>
+the input fields. It is set to false by default to signify there are currently no errors, when it’s true an<br>
+error message will be written above the form in red. The error message will be discussed in later on<br>
+in the tutorial.<br></p>
+
+<img src="images/haserror.png" /><br>
+
+<p>The <strong>$isURLAllowed</strong> checks that the URL supplied with the email is permitted. This<br>
+check prevents spam from coming through your inbox. You can set it to true if you want to allow URL<br>
+to be supplied to the form.<br></p>
+
+<img src="images/isurlallowed.png" /><br>
+
+<p>The <strong>$fields</strong> variable is important part of this section of code. This variable<br>
+compiles an array of the input fields names used in the contact us page. The input field name comes<br>
+from the “name” name of the input field. So for example the Email Address input field name has an “name”<br>
+name called <strong>email</strong>, so the name <strong>email</strong> will be referenced in the<br>
+list of arrays. So when the input fields have been referenced they will be stored in the<br>
+<strong>$fields</strong> variable. This will be used later in the script for printing out the content<br>
+entered in the input fields.<br></p>
+
+<img src="images/fields.png" /><br>
+
+<p>Before we continue writing the next section of the PHP script, make sure the pieces of code typed<br>
+above come together like this:<br></p>
+
+<img src="images/section1.png" /><br><br>
+</div>
+
+</div>
+
+	<div id="nav">
+		<div id="pre"><a href='index.php?lesson=1'>Previous</a></div>
+		<div id="next"><a href='index.php?lesson=3'>Next Lesson</a></div>
+	</div>
+
+</body>
+</html>

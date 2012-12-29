@@ -1,0 +1,52 @@
+<html><head></head>
+<body>
+
+<h2>Lesson 5 – Mailing</h2>
+
+<div id="cont">
+
+The final part of the script involves the actual posting of the Web Form to a supplied email address.<br>
+This part is a bit more complicated.<br>
+
+<p>An if statement is used to check that the <strong>$message</strong> (in the previous page the $message variable was<br>
+used to hold the fields of data) does not contain a URL. This was implemented to prevent spam<br>
+emails coming through your inbox. A URL could be allowed if the variable <strong>$isURLAllowed</strong> is set to<br>
+true. An additional check is made to make sure an email address has been entered in the web form.<br>
+If both of the checks are true it can proceed to the following statement.<br></p>
+
+<img src="images/ifstatement2.png"/><br>
+
+<p>So when both sides of the checks are true then the @mail function is called and the web form can<br>
+be submitted to the email address within the <strong>@mail</strong> parameters. Respectively, the <strong>@mail</strong><br>
+parameters contain the email receiver (this is where your personal or company email will go), the<br>
+subject of the email, the <strong>$message</strong> which contains the content of the email (what the user entered<br>
+in the input fields) and the $headers. Another thing, the @ sign in front of mail is to prevent PHP<br>
+showing errors if it has failed.<br></p>
+
+<img src="images/mail.png"/><br>
+
+<p>Initially the <strong>$isSent</strong> variable is false. If a web form fails to send, then the $isSent variable becomes<br>
+false an error message is produced. It is produced when the <strong>$hasError</strong> becomes true due to the<br>
+$isSent variable becoming false.<br></p>
+
+<img src="images/ifstatement3.png"/><br>
+
+<p>The initial if statement produces an error message if both of the conditions are true.<br></p>
+
+<img src="images/else.png"/><br>
+
+<p>The PHP script has finally been written. Before we go to the final stage of this tutorial, make sure<br>
+that your complete PHP script looks like this and is above the contact us html code.<br></p>
+
+<img src="images/section4.png"/><br><br>
+</div>
+
+</div>
+
+	<div id="nav">
+		<div id="pre"><a href='index.php?lesson=4'>Previous</a></div>
+		<div id="next"><a href='index.php?lesson=6'>Next</a></div>
+	</div>
+
+</body>
+</html>
